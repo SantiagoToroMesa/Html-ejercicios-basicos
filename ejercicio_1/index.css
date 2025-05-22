@@ -33,7 +33,7 @@
     color: rgb(0, 0, 0);
 }
 .link:hover{
-color: gold;
+color: #ffd700;
 }
 #Multimedia{
     display: flex;

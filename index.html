@@ -4,44 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera pagina Web</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <header>
+<body class="body">
+    <header class="header">
         <h1>Bienvenidos a mi primera pagina web</h1>
     </header>
     <main>
-        <section>
+        <section class="section-sobre-mi">
             <h2>Sobre mi</h2>
             <p>Me llamo santiago, tengo 20 años y soy un apasionado de la tecnologia me encuentro estudiando actualmente html</p>
         </section>
-        <section>
-            <h2>Mis sitios favoritos</h2>
-            <ul>
-                <li><a href= "https://riwi.io">Riwi</a></li>
-                <li><a href="https://github.com/SantiagoToroMesa">Github</a></li>
-                <li><a href="https://escolmevirtual.edu.co">Escolme</a></li>
+        <section class="mis-favoritos">
+            <h2  >Mis sitios favoritos</h2>
+            <ul class="ul-favoritos"> >
+                <li ><a class="link" href= "https://riwi.io">Riwi</a></li>
+                <li ><a class="link" href="https://github.com/SantiagoToroMesa">Github</a></li>
+                <li ><a class="link" href="https://escolmevirtual.edu.co">Escolme</a></li>
             </ul>
         </section>
-        <div id="Multimedia">
-            <h2>Multimedia</h2>
-            <img src="https://picsum.photos/400/300" alt="Descripción de la imagen">
+        <div >
+            <h2 class="h2-multimedia">Multimedia</h2>
+            <div id="Multimedia">
+            <img class="imagen-multimedia" src="https://picsum.photos/400/300" alt="Descripción de la imagen">
             <video controls>
                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" controls width="640"></video>
-
-                Tu navegador no soporta el video.
             </video>
+            </div>
         </div>
-        <div id="Formulario">
+        <div class="Formulario">
             <h2>Formulario</h2>
             <form action="https://example.com/submit" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <button type="submit">Enviar</button>
+                <input class="input" type="text" id="nombre" name="nombre" required placeholder="Nombre" >
+                <input class="input"  type="email" id="email" name="email" required placeholder="Email" >
+                <button class="input-boton" type="submit">Enviar</button>
             </form>
     </main>
     <footer>
